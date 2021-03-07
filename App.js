@@ -5,7 +5,7 @@ import { StyleSheet, Text, View, TextInput, Linking, ScrollView, Image, Touchabl
 
 export default function App() {
   const baseUrl = "https://newsapi.org/v2/everything?q="
-  const apiKey = "759a41ef0f944f91a5939ea831376dd8"
+  const apiKey = ""
 
   const [state, setstate] = useState({
     s: "",
